@@ -3,7 +3,7 @@ include "includes/header.php";
 include "includes/navbar.php";
 ?>
 
-<marquee direction="left">Habiba International School</marquee>
+<h2><marquee direction="left">Habiba International School</marquee></h2>
 
 <?php
 include "includes/footer.php";
