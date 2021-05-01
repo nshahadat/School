@@ -96,6 +96,7 @@ ul {
 	left: 0px;
 	padding-top: 10px;
 }
+
 /*Responsive Footer START*/
 @media (max-width: 767px) {
 	.footer-col {

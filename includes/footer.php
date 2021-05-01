@@ -28,7 +28,7 @@
 						<h4>Google Map Location</h4>
 						<ul>
 							<li>
-								<a href="#">Google API</a>
+								<a href="#">Will get updated</a>
 							</li>
 						</ul>
 					</div>
@@ -49,6 +49,6 @@
 		</footer>
 
 
- <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
