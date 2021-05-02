@@ -68,16 +68,16 @@ body {
 	background-repeat: no-repeat;
 }
 .slide1 {
-	background-image: url(../assests/1.jpg);
+	background-image: url(../assests/demo-pic-1.jpg);
 }
 .slide2 {
-	background-image: url(../assests/2.jpg);
+	background-image: url(../assests/demo-pic-2.jpg);
 }
 .slide3 {
-	background-image: url(../assests/3.jpg);
+	background-image: url(../assests/demo-pic-3.jpg);
 }
 .slide4 {
-	background-image: url(../assests/4.jpg);
+	background-image: url(../assests/demo-pic-4.jpg);
 }
 .slide-content {
 	display: flex;
@@ -243,7 +243,9 @@ ul {
 		rgba(255, 255, 255, 0.7),
 		rgba(255, 255, 255, 0.3)
 	);
-	margin: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 .navbar .nav-links {
 	display: flex;

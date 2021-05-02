@@ -11,22 +11,22 @@ include "includes/navbar.php";
 			<div id="slider">
 				<div class="slide slide1">
 					<div class="slide-content">
-						<span>Vibing</span>
+						<span></span>
 					</div>
 				</div>
 				<div class="slide slide2">
 					<div class="slide-content">
-						<span>Get On</span>
+						<span></span>
 					</div>
 				</div>
 				<div class="slide slide3">
 					<div class="slide-content">
-						<span>Underwaved</span>
+						<span></span>
 					</div>
 				</div>
 				<div class="slide slide4">
 					<div class="slide-content">
-						<span>Fast Saga</span>
+						<span></span>
 					</div>
 				</div>
 			</div>
