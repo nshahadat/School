@@ -13,8 +13,8 @@ body {
 }
 .wrapper {
 	display: grid;
-	grid-gap: 20px;
-	padding: 10px;
+	grid-gap: 5px;
+	padding: 5px;
 	grid-template-areas:
 		"image-slider image-slider image-slider image-slider"
 		"school-name-slogan school-name-slogan school-name-slogan school-name-slogan"
@@ -22,7 +22,7 @@ body {
 }
 .image-slider {
 	grid-area: image-slider;
-	height: 400px;
+	height: 600px;
 	overflow: hidden;
 }
 .school-name-slogan {
@@ -34,12 +34,20 @@ body {
 .notice-box {
 	grid-area: notice-box;
 	height: 300px;
-	background-color: #cdd;
+	background: linear-gradient(
+		to left bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
 }
 .youtube {
 	grid-area: youtube;
 	height: 300px;
-	background-color: #cddbe1;
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
 }
 /* Image SLider START */
 #slider,
@@ -103,27 +111,6 @@ body {
 	right: 0;
 	margin-right: 30px;
 }
-.navbar {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 8vh;
-	background: white;
-	background: linear-gradient(
-		to right bottom,
-		rgba(255, 255, 255, 0.7),
-		rgba(255, 255, 255, 0.3)
-	);
-}
-.navbar .nav-links {
-	display: flex;
-	justify-content: space-around;
-	width: 50%;
-}
-.navbar .nav-links li {
-	display: flex;
-	list-style: none;
-}
 /* Image SLider END */
 .container {
 	min-height: 100%;
@@ -132,8 +119,10 @@ body {
 .footer {
 	background-color: #24262b;
 	padding: 70px 0;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 .footer-container {
 	max-width: 1170px;
@@ -254,6 +243,7 @@ ul {
 		rgba(255, 255, 255, 0.7),
 		rgba(255, 255, 255, 0.3)
 	);
+	margin: 5px;
 }
 .navbar .nav-links {
 	display: flex;

@@ -36,8 +36,8 @@ include "includes/navbar.php";
 	<div class="school-name-slogan">
 		<marquee>Habiba International School</marquee>
 	</div>
-	<div class="notice-box">notice box</div>
-	<div class="youtube">youtube video</div>
+	<div class="notice-box"></div>
+	<div class="youtube"></div>
 </div>
 
 <?php
