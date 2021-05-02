@@ -8,13 +8,14 @@
 html,
 body {
 	height: 100%;
-	background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+	background: linear-gradient(transparent, #6cdbeb, #99e7f3);
+	/* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
 	line-height: 1.5;
 	font-family: "Poppins", sans-serif;
 }
 .wrapper {
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 2px;
 	grid-template-areas:
 		"image-slider image-slider image-slider image-slider image-slider"
 		"school-name-slogan school-name-slogan school-name-slogan school-name-slogan school-name-slogan"
@@ -28,7 +29,6 @@ body {
 .school-name-slogan {
 	grid-area: school-name-slogan;
 	height: 100px;
-	background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 	font-size: 70px;
 }
 .notice-box {
@@ -207,7 +207,7 @@ ul {
 	padding-top: 10px;
 }
 
-/*Responsive Footer START*/
+/*Responsive START*/
 @media (max-width: 767px) {
 	.footer-col {
 		width: 50%;
@@ -219,6 +219,14 @@ ul {
 			"school-name-slogan school-name-slogan school-name-slogan school-name-slogan"
 			"notice-box"
 			"youtube youtube youtube";
+	}
+	.navbar .nav-links {
+		display: flex;
+		flex-direction: column;
+	}
+	.navbar {
+		flex-direction: column;
+		height: 12vh;
 	}
 }
 @media (max-width: 574px) {
@@ -233,7 +241,7 @@ ul {
 			"youtube youtube youtube";
 	}
 }
-/*Responsive Footer END*/
+/*Responsive END*/
 
 /* Footer Css END */
 
@@ -336,3 +344,15 @@ ul {
 marquee {
 	font-family: "Lobster", cursive;
 }
+/* Scrollbar START */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(transparent, #6cdbeb);
+	border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(transparent, #00c6af);
+}
+/* Scrollbar END */
