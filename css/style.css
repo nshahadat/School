@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
 	margin: 0;
 	padding: 0;
@@ -14,11 +15,10 @@ body {
 .wrapper {
 	display: grid;
 	grid-gap: 5px;
-	padding: 5px;
 	grid-template-areas:
-		"image-slider image-slider image-slider image-slider"
-		"school-name-slogan school-name-slogan school-name-slogan school-name-slogan"
-		"notice-box youtube youtube youtube";
+		"image-slider image-slider image-slider image-slider image-slider"
+		"school-name-slogan school-name-slogan school-name-slogan school-name-slogan school-name-slogan"
+		"notice-box notice-box youtube youtube youtube";
 }
 .image-slider {
 	grid-area: image-slider;
@@ -33,7 +33,7 @@ body {
 }
 .notice-box {
 	grid-area: notice-box;
-	height: 300px;
+	height: 500px;
 	background: linear-gradient(
 		to left bottom,
 		rgba(255, 255, 255, 0.7),
@@ -42,7 +42,7 @@ body {
 }
 .youtube {
 	grid-area: youtube;
-	height: 300px;
+	height: 500px;
 	background: linear-gradient(
 		to right bottom,
 		rgba(255, 255, 255, 0.7),
@@ -117,12 +117,15 @@ body {
 }
 /* Footer Css START */
 .footer {
-	background-color: #24262b;
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
 	padding: 70px 0;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	position: relative;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-top: 5px;
 }
 .footer-container {
 	max-width: 1170px;
@@ -141,7 +144,7 @@ ul {
 }
 .footer-col h4 {
 	font-size: 18px;
-	color: #fff;
+	color: #000;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
@@ -161,10 +164,10 @@ ul {
 }
 .footer-col ul li a {
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbb;
+	color: #000;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -176,7 +179,7 @@ ul {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgb(255, 255, 255, 0.2);
+	background-color: rgba(0, 0, 0, 0.2);
 	margin: 0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -189,8 +192,12 @@ ul {
 	background-color: #fff;
 }
 .footer .footer-bottom {
-	background: #343a40;
-	color: #bbb;
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
+	color: #000;
 	height: 50px;
 	width: 100%;
 	text-align: center;
@@ -244,8 +251,6 @@ ul {
 		rgba(255, 255, 255, 0.3)
 	);
 	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
 }
 .navbar .nav-links {
 	display: flex;
@@ -328,3 +333,6 @@ ul {
 	text-align: left;
 }
 /* Navbar Css END */
+marquee {
+	font-family: "Lobster", cursive;
+}

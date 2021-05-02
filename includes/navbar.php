@@ -34,8 +34,6 @@
             </li><li class="nav-item">
             <a href="rules.php">Rules & Regulations</a>
             </li><li class="nav-item">
-            <a href="impdates.php">Important dates</a>
-            </li><li class="nav-item">
             <a href="speeches.php">Speeches</a>
             </li>
 
