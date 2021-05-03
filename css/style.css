@@ -356,9 +356,11 @@ marquee {
 	background: linear-gradient(transparent, #00c6af);
 }
 /* Scrollbar END */
+/* teachersinfo start */
 .teachers-container {
 	display: flex;
-	min-height: 100vh;
+	margin-top: 20px;
+	
 }
 .t-image {
 	display: inline-block;
@@ -369,4 +371,35 @@ marquee {
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
+}
+.t-info1 {
+	display: none;
+}
+.nav-links li:hover .t-info1 {
+	display: block;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 400px;
+	background: white;
+	z-index: 2;
+	margin-top: 20px;
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
+}
+.nav-links  li:hover .t-info1 ul {
+	display: block;
+	margin: 10px;
+}
+.nav-links  li:hover .t-info1 ul li {
+	width: 100%;
+	padding: 10px;
+	background: transparent;
+	text-align: left;
+}
+.t-header1{
+	font-size: large;
+	text-align: center;
 }
