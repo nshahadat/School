@@ -10,18 +10,16 @@ include "includes/navbar.php";
             <p class = "teachersname">Shahadat Nayeem</p>
         <div class="t-info1">
             <ul >
-            <li class="nav-item">
-                <p class="t-email">shahadatnayeem23@gmail.com</a>
+                <li class="nav-item">
+                    <p class="t-email">shahadatnayeem23@gmail.com</a>
                 </li><li class="nav-item">
-                <p class="t-eduquali">Nasa's Most Young and Bright Scientist</a>
+                    <p class="t-eduquali">Nasa's Most Young and Bright Scientist</a>
                 </li><li class="nav-item">
-                <p class="t-subjects">Can Teach Anything if He is willing</a>
+                    <p class="t-subjects">Can Teach Anything if He is willing</a>
                 </li>
-            </ul>
-            </div>
+        </ul>
+        </div>
 </div>
-    
-
     <div class="col t-image"><img src="assests/safran.jpg">
     <li class="nav-item">
     <p class = "teachersname">Hasibul Hassan</p>
@@ -35,7 +33,7 @@ include "includes/navbar.php";
                 <p class="t-subjects">Can Teach Anything With Fun </a>
                 </li>
             </ul>
-            </div>
+    </div>
 </div>
 </div>
 <h6 class ="t-header1">Bangla Teachers</h6>

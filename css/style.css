@@ -360,7 +360,6 @@ marquee {
 .teachers-container {
 	display: flex;
 	margin-top: 20px;
-	
 }
 .t-image {
 	display: inline-block;
@@ -389,17 +388,17 @@ marquee {
 		rgba(255, 255, 255, 0.3)
 	);
 }
-.nav-links  li:hover .t-info1 ul {
+.nav-links li:hover .t-info1 ul {
 	display: block;
 	margin: 10px;
 }
-.nav-links  li:hover .t-info1 ul li {
+.nav-links li:hover .t-info1 ul li {
 	width: 100%;
 	padding: 10px;
 	background: transparent;
 	text-align: left;
 }
-.t-header1{
+.t-header1 {
 	font-size: large;
 	text-align: center;
 }
