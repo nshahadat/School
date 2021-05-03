@@ -356,3 +356,17 @@ marquee {
 	background: linear-gradient(transparent, #00c6af);
 }
 /* Scrollbar END */
+.teachers-container {
+	display: flex;
+	min-height: 100vh;
+}
+.t-image {
+	display: inline-block;
+	text-align: center;
+	width: 100vh;
+}
+.teachers-container .t-image img {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
