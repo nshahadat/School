@@ -2,70 +2,79 @@
 include "includes/header.php";
 include "includes/navbar.php";
 ?>
-<h6 class=t-header1>Math teachers</h6>
-<div class="teachers-container">
-   
-<ul class="nav-links">
-    <div class="col t-image"> <img src="assests/shahadat.jpg"> 
-    <li class="nav-item">
-        <p class = "teachersname">Shahadat Nayeem</p>
-    <div class="t-info1">
-           <ul >
-           <li class="nav-item">
-            <p class="t-email">shahadatnayeem23@gmail.com</a>
-            </li><li class="nav-item">
-            <p class="t-eduquali">Nasa's Most Young and Bright Scientist</a>
-            </li><li class="nav-item">
-            <p class="t-subjects">Can Teach Anything if He is willing</a>
-            </li>
-            </li>
-          </ul>
-         </div>
-             
-</div>
-    
-
-    <div class="col t-image"><img src="assests/safran.jpg">
-    <li class="nav-item">
-    <p class = "teachersname">Hasibul Hassan</p>
-    <div class="t-info1">
-           <ul >
-           <li class="nav-item">
-            <p class="t-email">hassanhasibul5@gmail.com</a>
-            </li><li class="nav-item">
-            <p class="t-eduquali">Greatest Electric Mistri In the World</a>
-            </li><li class="nav-item">
-            <p class="t-subjects">Can Teach Anything With Fun </a>
-            </li>
-            </li>
-          </ul>
-         </div>
-         </ul>
+<div class="t-wrapper">
+<h5 class="t-header">Math teachers</h5>
+<div class="ab-container">
+        <div class="col"><div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/safran.jpg" style="width:100%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+    </div>
 </div>
 </div>
-<h6 class ="t-header1">Bangla Teachers</h6>
-<div class="teachers-container">
-<ul class="nav-links">
-    <div class="col t-image"> <img src="assests/shahadat.jpg"> 
-    <li class="nav-item">
-        <p class = "teachersname">Shahadat Nayeem</p>
-    <div class="t-info1">
-           <ul >
-           <li class="nav-item">
-            <p class="t-email">shahadatnayeem23@gmail.com</a>
-            </li><li class="nav-item">
-            <p class="t-eduquali">Nasa's Most Young and Bright Scientist</a>
-            </li><li class="nav-item">
-            <p class="t-subjects">Can Teach Anything if He is willing</a>
-            </li>
-            </li>
-          </ul>
-         </div>
-         </ul>
+</div></div>
 </div>
-    
+<h5 class="t-header">Bangla teachers</h5>
+<div class="ab-container">
+<div class="col"><div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/safran.jpg" style="width:100%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+    </div>
 </div>
-
+</div>
+</div></div>
+        <div class="col"><div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/shahadat.jpg" style="width:92%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Shahadat Nayeem<br>Nasa's Scientist <br>01xxxxxxxx</div>
+    </div>
+</div>
+</div>
+</div></div>
+</div>
+<h5 class="t-header">English teachers</h5>
+<div class="ab-container">
+<div class="col">
+<div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/safran.jpg" style="width:100%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+    </div>
+</div>
+</div>
+</div></div>
+<div class="col">
+<div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/arnob.jpg" style="width:250%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Arnob Mallick<br>Lazy Gamer <br>01xxxxxxxx</div>
+    </div>
+</div>
+</div>
+</div></div>
+        <div class="col"><div class="wrapping">
+<div class="t-container">
+    <div class="col">
+<img src="assests/shahadat.jpg" style="width:92%" class="t-image">
+    <div class="middle-text">
+        <div class="actual-text">Shahadat Nayeem<br>Nasa's Scientist <br>01xxxxxxxx</div>
+    </div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
 <?php
 include "includes/footer.php";
 ?>
