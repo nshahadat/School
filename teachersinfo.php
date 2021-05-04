@@ -18,8 +18,10 @@ include "includes/navbar.php";
             </li><li class="nav-item">
             <p class="t-subjects">Can Teach Anything if He is willing</a>
             </li>
+            </li>
           </ul>
          </div>
+             
 </div>
     
 
@@ -35,8 +37,10 @@ include "includes/navbar.php";
             </li><li class="nav-item">
             <p class="t-subjects">Can Teach Anything With Fun </a>
             </li>
+            </li>
           </ul>
          </div>
+         </ul>
 </div>
 </div>
 <h6 class ="t-header1">Bangla Teachers</h6>
@@ -54,8 +58,10 @@ include "includes/navbar.php";
             </li><li class="nav-item">
             <p class="t-subjects">Can Teach Anything if He is willing</a>
             </li>
+            </li>
           </ul>
          </div>
+         </ul>
 </div>
     
 </div>
