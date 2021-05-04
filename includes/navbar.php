@@ -42,7 +42,7 @@
           </li>
          <li class="nav-item">
              
-          <a  href="contact.php">Gallery </a>
+          <a  href="gallery.php">Gallery </a>
         </li>
       </ul>
   </div>
