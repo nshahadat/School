@@ -2,7 +2,7 @@
 include "includes/header.php";
 include "includes/navbar.php";
 ?>
-<h6 class=t-header1>Math teachers</h6>
+ <h6 class=t-header1>Math teachers</h6>
 <div class="teachers-container">
    
 <ul class="nav-links">
@@ -62,9 +62,7 @@ include "includes/navbar.php";
           </ul>
          </div>
          </ul>
-</div>
-    
-</div>
+</div></div> 
 
 <?php
 include "includes/footer.php";
