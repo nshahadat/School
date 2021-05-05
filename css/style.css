@@ -400,25 +400,25 @@ marquee {
 		rgba(255, 255, 255, 0.7),
 		rgba(255, 255, 255, 0.3)
 	);
-	margin-top:100px;
+	margin-top: 100px;
 	color: black;
 	width: 200px;
 	padding-left: 20px;
 	padding-top: 10px;
-	padding-bottom: 10px ;
+	padding-bottom: 10px;
 	text-align: left;
 }
 .ab-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	height:300px;
+	height: 300px;
 }
-.t-header{
+.t-header {
 	text-align: center;
 	font-size: large;
 	margin-top: 20px;
 }
-.t-wrapper{
-	height:auto;
+.t-wrapper {
+	height: auto;
 }
