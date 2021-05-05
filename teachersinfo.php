@@ -10,7 +10,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/safran.jpg" style="width:100%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+        <div class="actual-text">Hasibul Hassan<br>Best Web Designer <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
@@ -23,7 +23,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/safran.jpg" style="width:100%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+        <div class="actual-text">Hasibul Hassan<br>Best Web Designer <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
@@ -33,7 +33,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/shahadat.jpg" style="width:92%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Shahadat Nayeem<br>Nasa's Scientist <br>01xxxxxxxx</div>
+        <div class="actual-text">Shahadat Nayeem<br>Velka <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
@@ -47,7 +47,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/safran.jpg" style="width:100%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Hasibul Hassan<br>Electric Mistry <br>01xxxxxxxx</div>
+        <div class="actual-text">Hasibul Hassan<br>Best Web Designer <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
@@ -58,7 +58,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/arnob.jpg" style="width:222%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Arnob Mallick<br>Lazy Gamer <br>01xxxxxxxx</div>
+        <div class="actual-text">Arnob Mallick<br>The most brilliant <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
@@ -68,7 +68,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/shahadat.jpg" style="width:92%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Shahadat Nayeem<br>Nasa's Scientist <br>01xxxxxxxx</div>
+        <div class="actual-text">Shahadat Nayeem<br>Velka <br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
