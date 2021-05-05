@@ -422,6 +422,8 @@ marquee {
 .t-wrapper {
 	height: auto;
 }
+/* teacherinfo END */
+/* pre loader START */
 .loader {
 	position: fixed;
 	left: 0;
@@ -443,3 +445,4 @@ marquee {
 		visibility: hidden;
 	}
 }
+/* pre loader END */
