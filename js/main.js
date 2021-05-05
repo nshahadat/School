@@ -40,11 +40,3 @@ arrowRight.addEventListener("click", function () {
 });
 startSlide();
 // Image Slider END
-
-var loader = document.querySelector(".loader");
-window.addEventListener("load", vanish);
-
-function vanish() {
-	loader.classList.add("gone");
-}
-console.log(loader);

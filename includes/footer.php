@@ -1,6 +1,7 @@
 
 
 <script type="text/javascript" src="./js/main.js"></script> 
+<script type="text/javascript" src="./js/loader.js"></script> 
 </body>
 <footer class="footer">
 			<div class="footer-container">
