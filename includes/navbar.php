@@ -25,7 +25,7 @@
         </li>
         
         <li class="nav-item">
-          <a  href="#">Academic</a>
+          <a  href="#">Academics</a>
           
          <div class="sub_menu2">
            <ul >
