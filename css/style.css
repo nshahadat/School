@@ -447,21 +447,22 @@ marquee {
 }
 /* pre loader END */
 /* department css start */
+.table-containter{
+	display: grid;
+
+}
 .table{
 	position: relative;
-	left:50%;
-	top:50%;
-	transform: translate(35%);
 	border-collapse: collapse;
 	height: 800px;
 	width:600px;
 	border: 1px solid;
 	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
-	overflow-wrap: break-word;
 	background:linear-gradient(to left bottom,
 	rgba(255, 255, 255, 0.7),
 	rgba(255, 255, 255, 0.3));
-	margin: 0;
+	margin: 0 !important;
+	grid-area:table;
 }
 tr{
 
@@ -471,8 +472,6 @@ tr{
 td{
 	padding: 12px;
 	text-align: left;
-	/* border-bottom: 1px solid black; */
-
 }
 .table-header{
 	height: 100px;
@@ -486,45 +485,31 @@ tr:hover{
 	transform: scale(1.02);
 	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
 }
-@media  only screen  and(max-width:768px) {
-	 table{
-		 width: 90%;
-	 }
-
-}
-th{
-	text-align: center !important;
+@media  only screen  and(max-width:550px) {
+	.table-containter{
+		grid-template-columns: 1fr;
+	}
 	
+
 }
 
 .others{
 	margin-left: 200px;
 	
 }
-.table-container{
-	display: flex !important;
-	flex-direction: row ;
-}
-.table1{
-	position: relative;
-	left: 50%;
-	bottom: 50%;
-	transform: translate(-100%,-106%);
-	border-collapse: collapse;
-	height: 800px;
-	width:600px;
-	border: 1px solid;
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
-	background:linear-gradient(to left bottom,
-	rgba(255, 255, 255, 0.7),
-	rgba(255, 255, 255, 0.3));
-	margin: 0;
-}
-.table-name{
- margin-left: 500px;
- margin-bottom: 50px;
-}
-.table-name1{
-	text-align: right;
-	transform: translate(-17%,-1880%);
+   .table-name{
+	   text-align: center;
    }
+   .table-name1{
+	
+	text-align: center;
+   }
+.row {
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  .column {
+	flex: 30%;
+  }
+  
