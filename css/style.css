@@ -517,9 +517,7 @@ g.container{
 	"g1-img1 g1-img2 g1-img3 g1-img4"
 	"       g-name2      " 
 	"g2-img1 g2-img2 g2-img3 g2-img4 g2-img5" ;
-
 }
-
 .g-name1{
 	text-align: center;
 	grid-area: g-name1;
@@ -543,7 +541,6 @@ g.container{
 	height: 400px;
 	width:470px;
 }
-
 .g1-img4{
 	grid-area:g1-img4;
 	height: 400px;
@@ -564,7 +561,6 @@ g.container{
 	height: 400px;
 	width:470px;
 }
-
 .g2-img4{
 	grid-area:g2-img4;
 	height: 400px;
