@@ -9,7 +9,6 @@ html,
 body {
 	min-height: 100%;
 	background: linear-gradient(transparent, #6cdbeb, #99e7f3);
-	/* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
 	line-height: 1.5;
 	font-family: "Poppins", sans-serif;
 }
@@ -447,69 +446,127 @@ marquee {
 }
 /* pre loader END */
 /* department css start */
-.table-containter{
+.table-containter {
 	display: grid;
-
 }
-.table{
+.table {
 	position: relative;
 	border-collapse: collapse;
 	height: 800px;
-	width:600px;
+	width: 600px;
 	border: 1px solid;
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
-	background:linear-gradient(to left bottom,
-	rgba(255, 255, 255, 0.7),
-	rgba(255, 255, 255, 0.3));
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(
+		to left bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
 	margin: 0 !important;
-	grid-area:table;
+	grid-area: table;
 }
-tr{
-
+tr {
 	cursor: pointer;
-	transition: all .2s ease-in;
+	transition: all 0.2s ease-in;
 }
-td{
+td {
 	padding: 12px;
 	text-align: left;
 }
-.table-header{
+.table-header {
 	height: 100px;
-	background:linear-gradient(to left bottom,
-	rgba(255, 255, 255, 0.7),
-	rgba(255, 255, 255, 0.3));
-
+	background: linear-gradient(
+		to left bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
 }
-tr:hover{
+tr:hover {
 	background-color: cyan;
 	transform: scale(1.02);
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
-@media  only screen  and(max-width:550px) {
-	.table-containter{
+@media only screen and(max-width:550px) {
+	.table-containter {
 		grid-template-columns: 1fr;
 	}
-	
-
 }
 
-.others{
+.others {
 	margin-left: 200px;
-	
 }
-   .table-name{
-	   text-align: center;
-   }
-   .table-name1{
-	
+.table-name {
 	text-align: center;
-   }
+}
+.table-name1 {
+	text-align: center;
+}
 .row {
 	display: flex;
 	justify-content: space-around;
-  }
-  
-  .column {
+}
+
+.column {
 	flex: 30%;
-  }
-  
+}
+/* gallery css start */
+g.container{
+	display: grid;
+	grid-template-columns:  1fr  1fr  1fr  1fr ;
+	grid-template-rows:  0.5fr 1.5fr 0.5fr 1.5fr;
+	grid-template-areas:"       g-name1       " 
+	"g1-img1 g1-img2 g1-img3 g1-img4"
+	"       g-name2      " 
+	"g2-img1 g2-img2 g2-img3 g2-img4 g2-img5" ;
+
+}
+
+.g-name1{
+	text-align: center;
+	grid-area: g-name1;
+}
+.g-name2{
+	text-align: center;
+	grid-area: g-name2;
+}
+.g1-img1{
+	grid-area:g1-img1;
+	height: 400px;
+	width:470px;
+}
+.g1-img2{
+	grid-area:g1-img2;
+	height: 400px;
+	width:470px;
+}
+.g1-img3{
+	grid-area:g1-img3;
+	height: 400px;
+	width:470px;
+}
+
+.g1-img4{
+	grid-area:g1-img4;
+	height: 400px;
+	width:470px;
+}
+.g2-img1{
+	grid-area:g2-img1;
+	height: 400px;
+	width:470px;
+}
+.g2-img2{
+	grid-area:g2-img2;
+	height: 400px;
+	width:470px;
+}
+.g2-img3{
+	grid-area:g2-img3;
+	height: 400px;
+	width:470px;
+}
+
+.g2-img4{
+	grid-area:g2-img4;
+	height: 400px;
+	width:470px;
+}
