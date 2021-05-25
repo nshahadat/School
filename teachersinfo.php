@@ -56,7 +56,7 @@ include "includes/navbar.php";
 <div class="wrapping">
 <div class="t-container">
     <div class="col">
-<img src="assests/arnob.jpg" style="width:222%" class="t-image">
+<img src="assests/arnob2.jpg" style="width:100%" class="t-image">
     <div class="middle-text">
         <div class="actual-text">Arnob Mallick<br>The most brilliant <br>01xxxxxxxx</div>
     </div>
