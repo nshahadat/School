@@ -400,12 +400,13 @@ marquee {
 		rgba(255, 255, 255, 0.3)
 	);
 	margin-top: 100px;
-	color: black;
-	width: 200px;
+
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: left;
+	color: black;
+	min-width: 200px;
 }
 .t-main-container {
 	display: flex;

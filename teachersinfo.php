@@ -47,7 +47,7 @@ include "includes/navbar.php";
     <div class="col">
 <img src="assests/safran.jpg" style="width:100%" class="t-image">
     <div class="middle-text">
-        <div class="actual-text">Hasibul Hassan<br>Best Web Designer <br>01xxxxxxxx</div>
+        <div class="actual-text">Hasibul Hassan<br>Best Web Designer<br>01xxxxxxxx</div>
     </div>
 </div>
 </div>
