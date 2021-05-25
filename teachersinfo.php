@@ -4,7 +4,7 @@ include "includes/navbar.php";
 ?>
 <div class="t-wrapper">
 <h5 class="t-header">Math teachers</h5>
-<div class="ab-container">
+<div class="t-main-container">
         <div class="col"><div class="wrapping">
 <div class="t-container">
     <div class="col">
@@ -17,7 +17,7 @@ include "includes/navbar.php";
 </div></div>
 </div>
 <h5 class="t-header">Bangla teachers</h5>
-<div class="ab-container">
+<div class="t-main-container">
 <div class="col"><div class="wrapping">
 <div class="t-container">
     <div class="col">
@@ -40,7 +40,7 @@ include "includes/navbar.php";
 </div></div>
 </div>
 <h5 class="t-header">English teachers</h5>
-<div class="ab-container">
+<div class="t-main-container">
 <div class="col">
 <div class="wrapping">
 <div class="t-container">
