@@ -13,9 +13,7 @@
             <a href="#">About</a>
          <div class="sub_menu1">
            <ul >
-           <li class="nav-item">
-            <a href="about.php">About Us</a>
-            </li><li class="nav-item">
+          <li class="nav-item">
             <a href="vision.php">Mission & Vision</a>
             </li><li class="nav-item">
             <a href="teachersinfo.php">Teachers</a>
@@ -36,7 +34,9 @@
             </li><li class="nav-item">
             <a href="speeches.php">Speeches</a>
             </li>
-
+            <li class="nav-item">
+            <a href="notice.php">Notice </a>
+            </li>
           </ul>
          </div>
           </li>
