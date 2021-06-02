@@ -571,6 +571,33 @@ tr:hover {
 	text-align: center;
 }
 /* gallery css end */
+.admin-container {
+	min-height: 70vh;
+}
+.admin-header {
+	/* text-align: center; */
+	font-size: large;
+	top: 16%;
+	left: 47%;
+	position: absolute;
+}
+.loginbox {
+	width: 320px;
+	height: 200px;
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
+	color: black;
+	top: 20%;
+	left: 42%;
+	position: absolute;
+	transform: translateZ(-50%, -50%);
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
 .admin-button {
 	background: linear-gradient(
 		to right bottom,
@@ -583,22 +610,6 @@ tr:hover {
 	cursor: pointer;
 	width: 50%;
 	margin-left: 70px;
-}
-
-.admin-button:hover {
-	background-color: cyan;
-	transform: scale(1.02);
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-}
-input[type="password"]:hover {
-	background-color: cyan;
-	transform: scale(1.02);
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-}
-input[type="text"]:hover {
-	background-color: cyan;
-	transform: scale(1.02);
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
 input[type="text"],
 input[type="password"] {
@@ -615,29 +626,18 @@ input[type="password"] {
 	);
 	margin-left: 30px;
 }
-.admin-container {
-	min-height: 70vh;
+.admin-button:hover {
+	background-color: cyan;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
-.loginbox {
-	width: 320px;
-	height: 200px;
-	background: linear-gradient(
-		to right bottom,
-		rgba(255, 255, 255, 0.7),
-		rgba(255, 255, 255, 0.3)
-	);
-	color: black;
-	top: 20%;
-	left: 43%;
-	position: absolute;
-	transform: translateZ(-50%, -50%);
-	box-sizing: border-box;
-	display: flex;
-	align-items: center;
+input[type="password"]:hover {
+	background-color: cyan;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
-.admin-header {
-	text-align: center;
-	font-size: large;
-	margin-top: 70px;
-	position: relative;
+input[type="text"]:hover {
+	background-color: cyan;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
