@@ -9,7 +9,7 @@ include "includes/dbconfig.php";
         <form class="login" method="POST">
             <input type="text" placeholder="Username"name="uname" class="uname" />
             <input type="password" placeholder="Password"name="pass" class="upass"/>
-            <input type="submit" value="Sign In" class="admin-button"name="submit" class="button" />
+            <input type="submit" value="Sign In" class="admin-button"name="submit" />
         </form>
     </div>
 </div>    

@@ -11,10 +11,8 @@ include "includes/navbar.php";
             <table class="table">
                         <tr class="table-header">
                             <th>Science</th>
-                            <th>Commerce</th>
-                            
+                            <th>Commerce</th>   
                         </tr>
-                    
                             <tr>
                                 <td>Classes:9<br>Student Capacity:80<br>Current Students:70</td>
                                 <td>Classes:9<br>Student Capacity:80<br>Current Students:70</td>
@@ -23,10 +21,8 @@ include "includes/navbar.php";
                                 <td>Classes:10<br>Student Capacity:80<br>Current Students:70</td>
                                 <td>Classes:10<br>Student Capacity:80<br>Current Students:70</td>
                             </tr>
-                    
                         <tr class="table-header">
-                            <th ><p class="others">Others</p><th ></th></th>
-                            
+                            <th ><p class="others">Others</p><th ></th></th>    
                         </tr>
                             <tr>
                                 <td>Classes:1<br>Student Capacity:80<br>Current Students:70</td>
