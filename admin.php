@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
     $name = $_POST['uname'];
     $pwd = $_POST['pass'];
 
-    $sql = "SELECT * FROM $table WHERE name = '$name' AND pwd = '$pwd'";
+    $sql = "SELECT * FROM $admin WHERE name = '$name' AND pwd = '$pwd'";
 
     $result  = mysqli_query($mysqli, $sql) or die(mysqli_error());
     $numrows = mysqli_num_rows($result);
@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
     if ($numrows == 0) {
         echo "<script>alert('Wrong username or password')</script>";
     } else {
-        header("Location: depts.php");
+        header("Location: admin-control.php");
     }
 }
 ?>
