@@ -708,9 +708,7 @@ input[type="file"] {
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
-	position: absolute;
-	left: 43%;
-	top: 28%;
+	width: 60%;
 }
 .notice-upload:hover {
 	background-color: cyan;
@@ -724,7 +722,12 @@ input[type="file"] {
 	top: 38%;
 	font-size: larger;
 }
-.notice-table {
+.notice-table1 {
+	position: absolute;
+	left: 43%;
+	top: 26%;
+}
+.notice-table2 {
 	position: absolute;
 	left: 43%;
 	top: 42%;
@@ -741,6 +744,25 @@ input[type="file"] {
 	cursor: pointer;
 }
 .delete-button:hover {
+	background-color: cyan;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.submit-button {
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.3)
+	);
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 20%;
+	right: 8%;
+}
+.submit-button:hover {
 	background-color: cyan;
 	transform: scale(1.02);
 	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
