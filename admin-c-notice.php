@@ -2,7 +2,8 @@
 include "includes/header.php";
 include "includes/navbar.php";
 include "includes/dbconfig.php";
-?><div class="control-notice-container">
+?>
+<div class="control-notice-container">
     <p class="notice-header1"> Upload Your Notices Here-</p>
     <table class="notice-table1">
         <tr>
@@ -20,12 +21,19 @@ include "includes/dbconfig.php";
     <p class="notice-header2"> Your Uploaded Notices</p>
     <form method="post">
     <table class="notice-table2">
+    <?php
+        $fetch = "SELECT * FROM $notice";
+        $insert = $mysqli->query($fetch);
+    ?>
+    <?php while ($data = $insert-> fetch_assoc()){
+    ?>
         <tr>
-            <td class="uploaded_notices">First notice uploaded here</td>
-            <td><input type="submit" value="Delete" class="delete-button"name="delete"/></td>
+            <td class="uploaded_notices"><?php echo $data['file_name']; $info = $data['file_name']; ?></td>
+            <td><form method="POST"><input type="submit" value="Delete" class="delete-button"name="delete"/></form>
+            </td>
         </tr>
         <tr>
-        </tr>
+        </tr><?php } ?> 
     </table>
     </form>
 </div>
