@@ -28,8 +28,12 @@ include "includes/dbconfig.php";
     <?php while ($data = $insert-> fetch_assoc()){
     ?>
         <tr>
-            <td class="uploaded_notices"><?php echo $data['file_name']; $info = $data['file_name']; ?></td>
-            <td><form method="POST"><input type="submit" value="Delete" class="delete-button"name="delete"/></form>
+            <td class="uploaded_notices"><?php echo $data['pdf_file_name'];?></td>
+            <td>
+                <form method="POST">
+                <input type="submit" value="Delete" class="delete-button" name="delete"/>
+                <input type="hidden" name="d_value" value="<?php echo $data['pdf_file_name'] ?>">
+                </form>
             </td>
         </tr>
         <tr>
@@ -46,10 +50,25 @@ if (isset($_POST['submit'])) {
 
     move_uploaded_file($file_tmp, "uploads/" . $name);
 
-    $sql = "INSERT INTO $notice (file_name, file_dir) VALUES ('$name','$file_dir' )";
+    $sql = "INSERT INTO $notice (pdf_file_name, file_dir) VALUES ('$name','$file_dir' )";
 
     $mysqli->query($sql) or die($mysqli->error);
     echo "<script>alert('Notice uploaded succesfully')</script>";
+
+    header("Location: admin-c-notice.php");
+}
+if (isset($_POST['delete'])) {
+    $info = $_POST['d_value'];
+    $sqlDelete = "DELETE FROM $notice WHERE pdf_file_name = '$info'";
+
+    if ($mysqli->query($sqlDelete)) {
+        echo "<script>alert('Notice deleted succesfully')</script>";
+    }
+    else {
+        echo "Failed";
+    }
+
+    header("Location: admin-c-notice.php");
 }
 ?>
 <?php
