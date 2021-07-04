@@ -67,8 +67,6 @@ if (isset($_POST['delete'])) {
     else {
         echo "Failed";
     }
-
-    header("Location: admin-c-notice.php");
 }
 ?>
 <?php
