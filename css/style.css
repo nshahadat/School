@@ -716,7 +716,7 @@ input[type="file"] {
 }
 .notice-header2 {
 	text-align: center;
-	position: absolute;
+	font-size: larger;
 }
 .notice-table1 {
 	display: flex;
