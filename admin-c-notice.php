@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
     $mysqli->query($sql) or die($mysqli->error);
     echo "<script>alert('Notice uploaded succesfully')</script>";
 
-    header("Location: admin-c-notice.php");
+    // header("Location: admin-c-notice.php");
 }
 if (isset($_POST['delete'])) {
     $info = $_POST['d_value'];
